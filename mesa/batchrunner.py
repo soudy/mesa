@@ -11,7 +11,7 @@ import random
 from collections import OrderedDict
 from functools import partial
 from itertools import count, product
-from multiprocessing import Pool, cpu_count
+from multiprocess import Pool, cpu_count
 from typing import (
     Any,
     Counter,
